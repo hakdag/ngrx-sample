@@ -1,0 +1,25 @@
+<div class="user-container">
+    <div class="form-container">
+        <legend>
+            <title>test</title>
+            <form [formGroup]="userForm">
+                <mat-form-field class="form-field" appearance="outline">
+                    <mat-label> Name
+                    </mat-label>
+                    <input matInput formControlName="name">
+                </mat-form-field>
+                <mat-form-field class="form-field" appearance="outline">
+                    <mat-label> User Name
+                    </mat-label>
+                    <input matInput formControlName="username">
+                </mat-form-field>
+                <mat-form-field class="form-field" appearance="outline">
+                    <mat-label> E-mail
+                    </mat-label>
+                    <input matInput formControlName="email">
+                </mat-form-field>
+                <!-- <button mat-raised-button color="primary" type="submit">Save</button> -->
+            </form>
+        </legend>
+    </div>
+</div>

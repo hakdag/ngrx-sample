@@ -1,0 +1,16 @@
+table {
+  width: 100%;
+}
+
+tr.example-element-row:hover {
+  background: whitesmoke;
+  cursor: pointer;
+}
+
+tr.example-element-row:active {
+  background: #efefef;
+}
+
+.example-element-row td {
+  border-bottom-width: 0;
+}
